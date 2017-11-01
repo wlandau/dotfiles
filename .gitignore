@@ -1,4 +1,5 @@
 *~
+*.txt
 .Xauthority
 .bash_history
 .bash_logout
@@ -23,6 +24,7 @@
 .pki/
 .profile
 .pulse-cookie
+.Rhistory
 .rstudio-desktop/
 .ssh/
 .steam/
@@ -40,5 +42,5 @@ Pictures/
 Qt5.4.2/
 R/
 Steam/
-VirtualBox VMs/
+VirtualBox*
 projects/

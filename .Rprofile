@@ -37,5 +37,8 @@ ld <- function(){
 }
 
 td <- function(){
-  setwd(tempdir())
+  dir <- tempfile()
+  unlink(dir, recursive = TRUE)
+  dir.create(dir)
+  setwd(dir)
 }

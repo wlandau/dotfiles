@@ -20,6 +20,10 @@ function go {
   fi
 }
 
+function gpr {
+  Rscript -e 'goodpractice::gp('\"$1\"')'
+}
+
 function kv {
   Rscript -e 'library(covr); x <- covr::package_coverage(path = '\"$1\"'); print(x); print(covr::zero_coverage(x))'
 }

@@ -43,7 +43,8 @@ td <- function(){
   setwd(dir)
 }
 
-spell_check_ignore <- function(){
+spell_check_ignore <- function(pkg){
   ignore <- readLines("~/.ignore_spelling")
+  x <- devtools::spell_check(pkg, lang = "en_US")$word
+  setdiff(x, ignore)
 }
-

@@ -42,3 +42,8 @@ td <- function(){
   dir.create(dir)
   setwd(dir)
 }
+
+spell_check_ignore <- function(){
+  ignore <- readLines("~/.ignore_spelling")
+}
+

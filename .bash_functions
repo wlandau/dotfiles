@@ -58,7 +58,7 @@ function sl {
 }
 
 function sp {
-  Rscript -e 'devtools::spell_check('\"$1\"', lang = "en_US")'
+  Rscript -e 'spell_check_ignore('\"$1\"')'
 }
 
 function tk {

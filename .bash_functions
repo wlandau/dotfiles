@@ -58,7 +58,7 @@ function sl {
 }
 
 function sp {
-  Rscript -e 'spelling::spell_check_package('\"$1\"', lang = "en_US")'
+  Rscript -e 'devtools::spell_check('\"$1\"', lang = "en_US")'
 }
 
 function tk {

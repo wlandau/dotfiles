@@ -12,6 +12,7 @@ alias jb='jekyll build'
 alias jv='jekyll serve'
 alias k="tput reset"
 alias lg='exit'
+alias px='identify -format '%w x %h' '
 alias r='R --no-save'
 alias R='R --no-save'
 alias share='chmod -r go+rwx '

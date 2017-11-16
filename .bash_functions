@@ -65,6 +65,10 @@ function sp {
   Rscript -e 'spell_check_ignore('\"$1\"')'
 }
 
+function spl {
+  Rscript -e 'devtools::spell_check('\"$1\"')'
+}
+
 function tk {
   Rscript -e 'devtools::test(pkg = '\"$1\"')'
 }

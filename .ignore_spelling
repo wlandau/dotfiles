@@ -8,6 +8,9 @@ algos
 Axthelm
 backends
 batchtools
+Badi
+Baltagi
+Bal
 Bengtsson
 Boneri
 chmod
@@ -22,6 +25,8 @@ dereferenced
 devtools
 dplyr
 envir
+Ecdat
+Econometrics
 Falster
 FitzJohn
 gc
@@ -36,12 +41,15 @@ Kendon
 Kirill
 knitr
 lapply
+Lowndes
 Makefile
 Makefiles
+Marwick
 mc
 mclapply
 md
 memoise
+Munnell
 Müller
 Müller
 multisession
@@ -59,6 +67,7 @@ parallelizing
 parallelRemake
 parLapply
 pditommaso
+Pinnoi
 pre
 prework
 Programmatically
@@ -76,7 +85,11 @@ reproducibility
 Reproducibility
 reproducibly
 RL
+rmd
+Rmd
+RMSPE
 rmarkdown
+rOpenSci
 Rtools
 runthrough
 scalability

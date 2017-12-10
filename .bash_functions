@@ -28,6 +28,10 @@ function kv {
   Rscript -e 'library(covr); x <- covr::package_coverage(path = '\"$1\"'); print(x); print(covr::zero_coverage(x))'
 }
 
+function pd {
+  Rscript -e 'pkgdown::build_site(pkg = '\"$1\"')'
+}
+
 function lt {
   Rscript -e 'lintr::lint('\"$1\"')'
 }

@@ -1,6 +1,7 @@
 Acknowledge
 Acknowledgement
 Acknowledgements
+Ane
 acyclic
 advisor
 algo
@@ -13,6 +14,8 @@ Baltagi
 Bal
 Bengtsson
 Boneri
+Bostock
+Broman
 chmod
 Clarkberg
 coef
@@ -29,16 +32,20 @@ Ecdat
 Econometrics
 Falster
 FitzJohn
+flowlines
 gc
 ggplot
 github
 GitHub
+Halotype
 igraph
 Igraph
 Inivisibly
+Intercross
 Jarad
 Kendon
 Kirill
+Knitr
 knitr
 lapply
 Lowndes
@@ -49,12 +56,13 @@ mc
 mclapply
 md
 memoise
+modularity
 Munnell
-Müller
 Müller
 multisession
 Nantz
 Niemi
+NHDPlus
 nolint
 nontrivially
 outdatedness
@@ -66,6 +74,7 @@ parallelize
 parallelizing
 parallelRemake
 parLapply
+Payseur
 pditommaso
 Pinnoi
 pre
@@ -75,8 +84,10 @@ programmatically
 PSOCK
 quickstart
 Quickstart
+README
 RDS
 rds
+Recombinant
 regraphing
 reimagining
 remakeGenerator
@@ -92,6 +103,7 @@ rmarkdown
 rOpenSci
 Rtools
 runthrough
+Saunak
 scalability
 scalable
 SLURM
@@ -100,8 +112,10 @@ Storr
 subgraphs
 Subgraphs
 sugiyama
+Sungjin
 supercomputing
 templating
+Tidyverse
 toc
 toolkits
 trackr
@@ -124,4 +138,5 @@ Workflow
 workflows
 Workflows
 workplan
+YAML
 Yub

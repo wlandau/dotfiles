@@ -29,7 +29,7 @@ function kv {
 }
 
 function pd {
-  Rscript -e 'pkgdown::build_site(pkg = '\"$1\"')'
+  Rscript -e 'pkgdown::build_site()'
 }
 
 function lt {

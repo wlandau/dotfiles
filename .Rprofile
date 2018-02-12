@@ -27,12 +27,6 @@ dl <- function(){
 }
 
 ld <- function(){
-  library(devtools)
-  library(eply)
-  library(lintr)
-  library(spelling)
-  library(storr)
-  library(testthat)
   load_all("~/projects/drake")
 }
 
@@ -44,7 +38,10 @@ td <- function(){
 }
 
 spell_check_ignore <- function(pkg){
-  ignore <- readLines("~/.ignore_spelling")
-  x <- devtools::spell_check(pkg, lang = "en_US")$word
-  setdiff(x, ignore)
+  devtools::spell_check(pkg)$word
 }
+
+library(devtools)
+library(testthat)
+library(usethis)
+library(storr)

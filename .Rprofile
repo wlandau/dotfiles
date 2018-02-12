@@ -27,7 +27,7 @@ dl <- function(){
 }
 
 ld <- function(){
-  load_all("~/projects/drake")
+  devtools::load_all("~/projects/drake")
 }
 
 td <- function(){

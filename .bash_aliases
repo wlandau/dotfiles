@@ -2,6 +2,7 @@ alias c='rm -rf *~ \.*~ nohup.out .Rhistory .RData *.tar.gz *.Rcheck *.Rout'
 alias cj='cd ~/projects'
 alias co='cd ~/Desktop'
 alias dl="Rscript -e 'dl()'"
+alias f='dbus-launch dolphin'
 alias g='git commit -a; git push'
 alias ga='git commit -a '
 alias gam='git commit -am '

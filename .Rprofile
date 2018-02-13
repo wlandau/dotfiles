@@ -41,7 +41,7 @@ spell_check_ignore <- function(pkg){
   devtools::spell_check(pkg)$word
 }
 
-library(devtools)
-library(testthat)
-library(usethis)
-library(storr)
+library(devtools, warn.conflicts = FALSE)
+library(testthat, warn.conflicts = FALSE)
+library(usethis, warn.conflicts = FALSE)
+library(storr, warn.conflicts = FALSE)

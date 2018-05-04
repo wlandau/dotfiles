@@ -1,3 +1,5 @@
+Sys.setenv(NOT_CRAN = "true") 
+
 local({
   r <- getOption("repos")
   r["CRAN"] <- "https://cloud.r-project.org"

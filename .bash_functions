@@ -25,7 +25,7 @@ function gpr {
 }
 
 function kv {
-  Rscript -e 'library(covr); x <- covr::package_coverage(path = '\"$1\"'); print(x); print(covr::zero_coverage(x))'
+  Rscript -e 'Sys.setenv(NOT_CRAN = "true"); library(covr); x <- covr::package_coverage(path = '\"$1\"'); print(x); print(covr::zero_coverage(x))'
 }
 
 function pd {

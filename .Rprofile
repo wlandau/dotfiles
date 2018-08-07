@@ -1,3 +1,6 @@
+Sys.setenv(GITHUB_TOKEN = "38d65f20c9d4117062d6e82a4b8427ecf3f69473")
+Sys.setenv(NOT_CRAN = "true")
+
 local({
   r <- getOption("repos")
   r["CRAN"] <- "https://cloud.r-project.org"
@@ -30,6 +33,14 @@ ld <- function(){
   devtools::load_all("~/projects/drake")
 }
 
+cr <- function(){
+  devtools::load_all("~/projects/crew")
+  assign("workload", example_workload("environment"), envir = globalenv())
+  assign("schedule", example_schedule("igraph"), envir = globalenv())
+  assign("workers", 1, envir = globalenv())
+  assign("fun", lapply, envir = globalenv())
+}
+
 td <- function(){
   dir <- tempfile()
   unlink(dir, recursive = TRUE)
@@ -41,7 +52,7 @@ spell_check_ignore <- function(pkg){
   devtools::spell_check(pkg)$word
 }
 
-library(devtools, warn.conflicts = FALSE)
-library(testthat, warn.conflicts = FALSE)
-library(usethis, warn.conflicts = FALSE)
-library(storr, warn.conflicts = FALSE)
+#library(devtools, warn.conflicts = FALSE)
+#library(testthat, warn.conflicts = FALSE)
+#library(usethis, warn.conflicts = FALSE)
+#library(storr, warn.conflicts = FALSE)

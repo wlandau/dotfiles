@@ -4,3 +4,5 @@ export CPLUS_INCLUDE_PATH=/usr/share/R/include:$CPLUS_INCLUDE_PATH
 export EDITOR=emacs
 export GCC_INCLUDE_DIR=/usr/share/R/include:$GCC_INCLUDE_DIR
 export PS1='\[\033[01;32m\]`echo \$PWD`\[\033[00m\] '
+export GOPATH=/usr/local/go
+export GOBIN=$GOPATH/bin

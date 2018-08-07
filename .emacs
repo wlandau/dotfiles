@@ -16,3 +16,5 @@
 
 (set-face-attribute 'default nil :height 160)
 (setq column-number-mode t)
+(add-to-list 'auto-mode-alist '("\\.R\\'" . python-mode))
+(add-to-list 'auto-mode-alist '("\\.cu\\'" . c++-mode))

@@ -9,7 +9,7 @@ function gj {
   fi
 }
 
-function go {
+function gjo {
   if [ $# -eq 0 ]; then
     git log -1
   else

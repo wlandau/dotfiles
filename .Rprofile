@@ -30,6 +30,10 @@ dl <- function(){
 }
 
 ld <- function(){
+  library(devtools)
+  library(testthat)
+  library(usethis)
+  library(storr)
   devtools::load_all("~/projects/drake")
 }
 
@@ -47,12 +51,3 @@ td <- function(){
   dir.create(dir)
   setwd(dir)
 }
-
-spell_check_ignore <- function(pkg){
-  devtools::spell_check(pkg)$word
-}
-
-#library(devtools, warn.conflicts = FALSE)
-#library(testthat, warn.conflicts = FALSE)
-#library(usethis, warn.conflicts = FALSE)
-#library(storr, warn.conflicts = FALSE)

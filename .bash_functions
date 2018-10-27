@@ -66,7 +66,7 @@ function sl {
 }
 
 function sp {
-  Rscript -e 'spell_check_ignore('\"$1\"')'
+  Rscript -e 'devtools::spell_check('\"$1\"')'
 }
 
 function spl {

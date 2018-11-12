@@ -1,0 +1,9 @@
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGfAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+splitterSizes=426,213
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/RosaImageWriter-2.6.2-lin-x86_64.tar.xz
+Name1[$e]=RosaImageWriter-2.6.2-lin-x86_64.tar.xz

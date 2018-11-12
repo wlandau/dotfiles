@@ -1,0 +1,12 @@
+[General]
+lastSaveAsLocation=file:///home/landau/Downloads/
+
+[GuiConfig]
+captureModeIndex=4
+cropRegion=0,937,1900,40
+lastUsedSaveMode=0
+window-position=726,224
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Downloads/htop.png,file:$HOME/Downloads/htop.png
+Recent URLs[$e]=file:$HOME/Downloads/

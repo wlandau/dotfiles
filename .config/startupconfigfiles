@@ -1,0 +1,72 @@
+kcminputrc Mouse cursorTheme 'breeze_cursors'
+/home/landau/.config/kcminputrc
+!/etc/xdg/xdg-/usr/share/xsessions/plasma/kcminputrc
+!/etc/xdg/kcminputrc
+!/home/landau/.local/share/config/kcminputrc
+!/usr/share/usr/share/xsessions/plasma/config/kcminputrc
+!/home/landau/.local/share/flatpak/exports/share/config/kcminputrc
+!/var/lib/flatpak/exports/share/config/kcminputrc
+!/usr/local/share/config/kcminputrc
+!/usr/share/config/kcminputrc
+!/var/lib/snapd/desktop/config/kcminputrc
+*
+kcminputrc Mouse cursorSize ''
+/home/landau/.config/kcminputrc
+!/etc/xdg/xdg-/usr/share/xsessions/plasma/kcminputrc
+!/etc/xdg/kcminputrc
+!/home/landau/.local/share/config/kcminputrc
+!/usr/share/usr/share/xsessions/plasma/config/kcminputrc
+!/home/landau/.local/share/flatpak/exports/share/config/kcminputrc
+!/var/lib/flatpak/exports/share/config/kcminputrc
+!/usr/local/share/config/kcminputrc
+!/usr/share/config/kcminputrc
+!/var/lib/snapd/desktop/config/kcminputrc
+*
+ksplashrc KSplash Theme Breeze
+/home/landau/.config/ksplashrc
+!/etc/xdg/xdg-/usr/share/xsessions/plasma/ksplashrc
+!/etc/xdg/ksplashrc
+!/home/landau/.local/share/config/ksplashrc
+!/usr/share/usr/share/xsessions/plasma/config/ksplashrc
+!/home/landau/.local/share/flatpak/exports/share/config/ksplashrc
+!/var/lib/flatpak/exports/share/config/ksplashrc
+!/usr/local/share/config/ksplashrc
+!/usr/share/config/ksplashrc
+!/var/lib/snapd/desktop/config/ksplashrc
+*
+ksplashrc KSplash Engine KSplashQML
+/home/landau/.config/ksplashrc
+!/etc/xdg/xdg-/usr/share/xsessions/plasma/ksplashrc
+!/etc/xdg/ksplashrc
+!/home/landau/.local/share/config/ksplashrc
+!/usr/share/usr/share/xsessions/plasma/config/ksplashrc
+!/home/landau/.local/share/flatpak/exports/share/config/ksplashrc
+!/var/lib/flatpak/exports/share/config/ksplashrc
+!/usr/local/share/config/ksplashrc
+!/usr/share/config/ksplashrc
+!/var/lib/snapd/desktop/config/ksplashrc
+*
+kdeglobals KScreen ScreenScaleFactors ''
+/home/landau/.config/kdeglobals
+!/etc/xdg/xdg-/usr/share/xsessions/plasma/kdeglobals
+!/etc/xdg/kdeglobals
+!/home/landau/.local/share/config/kdeglobals
+!/usr/share/usr/share/xsessions/plasma/config/kdeglobals
+!/home/landau/.local/share/flatpak/exports/share/config/kdeglobals
+!/var/lib/flatpak/exports/share/config/kdeglobals
+!/usr/local/share/config/kdeglobals
+!/usr/share/config/kdeglobals
+!/var/lib/snapd/desktop/config/kdeglobals
+*
+kcmfonts General forceFontDPI 0
+!/home/landau/.config/kcmfonts
+!/etc/xdg/xdg-/usr/share/xsessions/plasma/kcmfonts
+!/etc/xdg/kcmfonts
+!/home/landau/.local/share/config/kcmfonts
+!/usr/share/usr/share/xsessions/plasma/config/kcmfonts
+!/home/landau/.local/share/flatpak/exports/share/config/kcmfonts
+!/var/lib/flatpak/exports/share/config/kcmfonts
+!/usr/local/share/config/kcmfonts
+!/usr/share/config/kcmfonts
+!/var/lib/snapd/desktop/config/kcmfonts
+*

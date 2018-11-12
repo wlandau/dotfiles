@@ -1,0 +1,37 @@
+[FileRemover]
+deleteInsteadOfTrash=true
+
+[MainWindow]
+Height 1080=657
+State=AAAA/wAAAAD9AAAAAAAAA7AAAAIrAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAFgBwAGwAYQB5AFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1920=944
+
+[MainWindow][Toolbar playToolBar]
+ToolButtonStyle=IconOnly
+
+[Notification Messages]
+hideOnCloseInfo=false
+
+[Player]
+CrossfadeTracks=false
+LoopPlaylist=false
+RandomPlay=Disabled
+Volume=100
+
+[PlaylistShared]
+ColumnOrder=
+InlineCompletionMode=2
+ResizeColumnsManually=false
+VisibleColumns=0,1,2,3,4,5,6,7
+
+[Playlists]
+DirectoryList[$e]=$HOME/Music
+ImportPlaylists=true
+showUpcoming=false
+
+[Settings]
+DockInSystemTray=true
+DockOnClose=true
+StartDocked=false
+TrackPopup=false

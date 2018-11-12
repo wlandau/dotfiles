@@ -1,0 +1,14 @@
+[KSharedDataCache]
+InfoOutput=4
+
+[amarokcollectionscanner]
+InfoOutput=4
+
+[kbuildsycoca4]
+InfoOutput=4
+
+[kdecore (services)]
+InfoOutput=2
+
+[kuiserver]
+InfoOutput=4

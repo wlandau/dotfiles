@@ -1,0 +1,113 @@
+[Devices]
+ASUS DRW-24B1ST   j=8468,8467
+
+[External Programs]
+cdrdao default=/usr/bin/cdrdao
+cdrdao last seen newest version=1.2.3
+cdrdao user parameters=
+cdrecord default=/usr/bin/wodim
+cdrecord last seen newest version=1.1.11
+cdrecord user parameters=
+cdrskin default=/usr/bin/cdrskin
+cdrskin last seen newest version=1.4.2
+cdrskin user parameters=
+dvd+rw-format default=/usr/bin/dvd+rw-format
+dvd+rw-format last seen newest version=7.1
+dvd+rw-format user parameters=
+eMovix user parameters=
+growisofs default=/usr/bin/growisofs
+growisofs last seen newest version=7.1
+growisofs user parameters=
+mkisofs default=/usr/bin/genisoimage
+mkisofs last seen newest version=1.1.11
+mkisofs user parameters=
+normalize user parameters=
+readcd default=/usr/bin/readom
+readcd last seen newest version=1.1.11
+readcd user parameters=
+search path[$e]=/usr/bin/,/usr/local/bin/,/usr/sbin/,/usr/local/sbin/,/sbin
+sox user parameters=
+transcode user parameters=
+vcdxbuild default=/usr/bin/vcdxbuild
+vcdxbuild last seen newest version=0.7.24
+vcdxbuild user parameters=
+vcdxminfo default=/usr/bin/vcdxminfo
+vcdxminfo last seen newest version=0.7.24
+vcdxminfo user parameters=
+vcdxrip default=/usr/bin/vcdxrip
+vcdxrip last seen newest version=0.7.24
+vcdxrip user parameters=
+
+[General Options]
+Allow overburning=false
+Fifo buffer=4
+Force unsafe operations=false
+Last system check version=18.8.1
+Manual buffer size=false
+Navigator breadcrumb mode=true
+No cd eject=false
+Show Document Header=true
+Temp Dir=/home/landau/Videos
+burnfree=true
+check system config=true
+config version=18.8.1
+current_writer=/dev/sr0
+
+[Welcome Widget]
+welcome_actions=file_new_data,file_new_audio,tools_copy_medium
+
+[file view]
+Decoration position=0
+Show Inline Previews=true
+Show Preview=false
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+View Style=Simple
+last url[$e]=$HOME/
+listViewIconSize=0
+show bookmarks=false
+
+[last used Audio Ripping]
+blank replace string=_
+create_playlist=false
+encoder=k3boggvorbisencoder
+filename pattern=%A - %T/%n - !a='%A'{%a - }%t
+filetype=ogg
+last ripping directory[$e]=file:$HOME/Music
+never_skip=true
+paranoia_mode=0
+playlist pattern=%{albumartist} - %{albumtitle}
+read_retries=5
+relative_path_in_playlist=false
+replace blanks=false
+single_file=false
+use_index0=false
+write_cue_file=false
+
+[last used Disk Copy]
+audio retries=5
+copies=1
+copy cdtext=true
+copy mode=normal
+data retries=128
+delete_images=true
+ignore audio read errors=true
+ignore data read errors=false
+image path[$e]=$HOME/Videos/
+no correction=false
+on_the_fly=false
+only_create_image=false
+paranoia_mode=0
+simulate=false
+source_device=/dev/sr0
+verify data=false
+writer_device=/dev/sr0
+writing_app=Auto
+writing_mode=auto
+writing_speed=0
+
+[main_window_settings]
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAF+AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled

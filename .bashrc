@@ -102,19 +102,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
 if [ -f ~/.bash_path ]; then
-    . ~/.bash_path
-fi
-
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-
-if [ -f ~/.bash_functions ]; then
-    . ~/.bash_functions
-fi
-
-if [ -f ~/.bash_functions ]; then
-    . ~/.bash_variables
+    . ~/.bash_custom
 fi
 
 # enable programmable completion features (you don't need to enable

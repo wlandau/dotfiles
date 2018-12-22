@@ -1,10 +1,12 @@
 sudo apt-get install -y fort77
 sudo apt-get install -y gfortran
+sudo apt-get install -y libblas-dev
 sudo apt-get install -y libbz2-dev
 sudo apt-get install -y libcurl4-openssl-dev
 sudo apt-get install -y liblzma-dev
 sudo apt-get install -y libpcre3
 sudo apt-get install -y libpcre3-dev
+sudo apt-get install -y libreadline-dev
 sudo apt-get install -y libssl-dev
 sudo apt-get install -y libudunits2-dev
 sudo apt-get install -y libxml2-dev

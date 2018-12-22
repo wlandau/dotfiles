@@ -1,6 +1,6 @@
-sudo apt-get update
-sudo apt-get upgrade
-agi build-essential
-agi emacs
-agi git
-agi xclip
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get install -y build-essential
+sudo apt-get install -y emacs
+sudo apt-get install -y git
+sudo apt-get install -y xclip

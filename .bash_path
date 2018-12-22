@@ -1,4 +1,4 @@
-export PATH=/home/landau/R/R-3.5.1/bin:$PATH
+export PATH=/home/landau/R/R-3.5.2/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/cuda/bin:$PATH
 

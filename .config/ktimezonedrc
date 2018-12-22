@@ -1,4 +1,0 @@
-[TimeZones]
-LocalZone=America/Indiana/Indianapolis
-ZoneinfoDir=/usr/share/zoneinfo
-Zonetab=/usr/share/zoneinfo/zone.tab

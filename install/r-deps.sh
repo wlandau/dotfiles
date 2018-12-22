@@ -12,6 +12,6 @@ agi libzmq5
 agi libzmq5-dev
 agi texinfo
 agi texlive
-agi texlife-fonts-extra
+agi texlive-fonts-extra
 agi xorg-dev
 agi zlib1g-dev

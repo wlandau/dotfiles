@@ -73,6 +73,10 @@ function spl {
   Rscript -e 'devtools::spell_check('\"$1\"')'
 }
 
+function tf {
+  Rscript -e 'pkgload::load_all()' -e 'testthat::test_file('\"$1\"')'
+}
+
 function tk {
   Rscript -e 'devtools::test(pkg = '\"$1\"')'
 }

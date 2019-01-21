@@ -1,6 +1,5 @@
 sudo apt-get install -y fort77
 sudo apt-get install -y gfortran
-sudo apt-get install -y libblas-dev
 sudo apt-get install -y libbz2-dev
 sudo apt-get install -y libcurl4-openssl-dev
 sudo apt-get install -y liblzma-dev

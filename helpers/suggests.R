@@ -1,0 +1,22 @@
+# For local drake testing
+suggests <- all.vars(quote(c(
+  abind,
+  bindr,
+  callr,
+  clustermq,
+  CodeDepends,
+  downloader,
+  future,
+  ggplot2,
+  ggraph,
+  knitr,
+  lubridate,
+  networkD3,
+  prettycode,
+  tibble,
+  tidyselect,
+  rmarkdown,
+  styler,
+  visNetwork,
+  webshot
+)))

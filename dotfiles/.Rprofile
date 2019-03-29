@@ -1,4 +1,3 @@
-Sys.setenv(GITHUB_TOKEN = "38d65f20c9d4117062d6e82a4b8427ecf3f69473")
 Sys.setenv(NOT_CRAN = "true")
 
 options(bitmapType = "cairo", drake_make_menu = FALSE, drake_clean_menu = FALSE)

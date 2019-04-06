@@ -2,7 +2,6 @@
 suggests <- all.vars(quote(c(
   abind,
   bindr,
-  cli,
   clustermq,
   CodeDepends,
   downloader,

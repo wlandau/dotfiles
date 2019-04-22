@@ -1,6 +1,6 @@
 alias ag='sudo apt-get '
 alias agi='sudo apt-get install -y '
-alias c='rm -rf *~ \.*~ *.out .Rhistory .RData *.tar.gz *.Rcheck *.Rout'
+alias c='rm -rf *~ \.*~ *.out .Rhistory .RData *.tar.gz *.Rcheck *.Rout *.log'
 alias cj='cd ~/projects'
 alias co='cd ~/Downloads'
 alias d='Rscript ~/projects/drake/docs.R'

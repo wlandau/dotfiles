@@ -1,0 +1,27 @@
+alias g='git commit -a; git push'
+alias ga='git commit -a '
+alias gam='git commit -am '
+alias gb='git branch '
+alias gp='git push'
+
+function gj {
+  if [ $# -eq 0 ]; then
+    git status
+  else
+    echo $1
+    cd $1
+    git status
+    cd ..
+  fi
+}
+
+function gjo {
+  if [ $# -eq 0 ]; then
+    git log -1
+  else
+    echo $1
+    cd $1
+    git log -1
+    cd ..
+  fi
+}

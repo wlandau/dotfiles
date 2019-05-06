@@ -1,0 +1,10 @@
+alias cj = 'cd ${PROJECTS}' # go to projects
+alias co = '' # go to desktop
+alias t = # for top
+alias q = # for qstat
+
+export PROJECTS = # file path to projects
+
+# For CUDA, R, Python, etc.
+export PATH = $PATH
+export LD_LIBRARY_PATH = $LD_LIBRARY_PATH

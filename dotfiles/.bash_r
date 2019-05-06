@@ -1,24 +1,5 @@
-function gj {
-  if [ $# -eq 0 ]; then
-    git status
-  else
-    echo $1
-    cd $1
-    git status
-    cd ..
-  fi
-}
-
-function gjo {
-  if [ $# -eq 0 ]; then
-    git log -1
-  else
-    echo $1
-    cd $1
-    git log -1
-    cd ..
-  fi
-}
+alias R='R --no-save --no-restore'
+alias r='R --no-save --no-restore'
 
 function gpr {
   Rscript -e 'goodpractice::gp('\"$1\"')'
@@ -26,10 +7,6 @@ function gpr {
 
 function kv {
   Rscript -e 'Sys.setenv(NOT_CRAN = "true"); library(covr); x <- covr::package_coverage(path = '\"$1\"'); print(x); print(covr::zero_coverage(x))'
-}
-
-function pd {
-  Rscript -e 'pkgdown::build_site()'
 }
 
 function lt {
@@ -69,24 +46,10 @@ function sp {
   Rscript -e 'devtools::spell_check('\"$1\"')'
 }
 
-function spl {
-  Rscript -e 'devtools::spell_check('\"$1\"')'
-}
-
 function tf {
   Rscript -e 'pkgload::load_all()' -e 'testthat::test_file('\"$1\"')'
 }
 
 function tk {
   Rscript -e 'devtools::test(pkg = '\"$1\"')'
-}
-
-function tl {
-  grep Failed $1
-  grep Warnings $1
-  grep Skipped $1
-}
-
-function trim {
-  sed -i 's/[[:space:]]*$//g' $1
 }

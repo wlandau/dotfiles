@@ -15,34 +15,12 @@ utils::assignInNamespace(
   "base"
 )
 
-dl <- function(){
-  library(cranlogs)
-  for (pkg in c("downsize", "drake", "eply", "grapes", "wildcard")){
-    cat("\n")
-    now <- Sys.time()
-    out <- suppressWarnings(cran_downloads(
-      pkg,
-      from = format(now - 3e5, "%Y-%m-%d"),
-      to = "last-day"
-    ))
-    print(out[-nrow(out), ])
-  }
-}
-
 ld <- function(){
   library(devtools)
   library(testthat)
   library(usethis)
   library(storr)
-  devtools::load_all("~/projects/drake")
-}
-
-cr <- function(){
-  devtools::load_all("~/projects/crew")
-  assign("workload", example_workload("environment"), envir = globalenv())
-  assign("schedule", example_schedule("igraph"), envir = globalenv())
-  assign("workers", 1, envir = globalenv())
-  assign("fun", lapply, envir = globalenv())
+  load_all(file.path(Sys.getenv("PROJECTS"), "drake"))
 }
 
 td <- function(){

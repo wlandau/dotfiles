@@ -10,4 +10,4 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export RSTUDIO_WHICH_R = # path to R
+# export RSTUDIO_WHICH_R = # path to R

@@ -1,4 +1,4 @@
-if [ -f ~/.bash_default]; then
+if [ -f ~/.bash_default ]; then
   . ~/.bash_default
 fi
 

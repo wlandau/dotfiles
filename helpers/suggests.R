@@ -16,6 +16,7 @@ suggests <- all.vars(quote(c(
   tidyselect,
   rmarkdown,
   styler,
+  txtplot,
   visNetwork,
   webshot
 )))

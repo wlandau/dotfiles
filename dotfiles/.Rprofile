@@ -8,13 +8,9 @@ local({
   options(repos = r)
 })
 
-utils::assignInNamespace(
-  "q",
-  function(save = "no", status = 0, runLast = TRUE){
-    .Internal(quit(save, status, runLast))
-  },
-  "base"
-)
+q0 <- function() {
+  q(save = "no", status = 0, runLast = TRUE)
+}
 
 ld <- function(){
   library(devtools)

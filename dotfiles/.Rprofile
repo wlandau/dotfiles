@@ -56,7 +56,10 @@ vis_rprof <- function(rprof) {
   }
   
   pprof <- tempfile()
+  message("reading rprof")
   data <- profile::read_rprof(rprof)
+  message("writing pprof")
   profile::write_pprof(data, pprof)
+  message("showing pprof")
   vis_pprof(pprof)
 }

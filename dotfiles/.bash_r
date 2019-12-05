@@ -53,3 +53,7 @@ function tf {
 function tk {
   Rscript -e 'devtools::test(pkg = '\"$1\"')'
 }
+
+function pf {
+  Rscript -e 'vis_rprof('\"$1\"')'
+}

@@ -15,6 +15,7 @@ suggests <- all.vars(quote(c(
   lubridate,
   networkD3,
   prettycode,
+  qs,
   tibble,
   tidyselect,
   rmarkdown,

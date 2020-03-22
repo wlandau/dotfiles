@@ -10,3 +10,7 @@ export PS1='\[\033[01;32m\]`echo \$PWD`\[\033[00m\] '
 function trim {
   sed -i 's/[[:space:]]*$//g' $1
 }
+
+function wf {
+  watch -n .1 tail -n 40 $1
+}

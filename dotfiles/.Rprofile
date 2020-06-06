@@ -17,13 +17,13 @@ la <- function() {
 }
 
 or <- function(x) {
-  if (file.exists(x)) {
+  if (file.exists(paste0(x, ".R"))) {
     ur(x)
   }
 }
 
 ot <- function(x) {
-  if (file.exists(x)) {
+  if (file.exists(paste0(x, ".R"))) {
     ut(x)
   }
 }

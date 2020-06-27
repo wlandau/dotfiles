@@ -16,24 +16,46 @@ la <- function() {
   remotes::load_all()
 }
 
-or <- function(x) {
-  if (file.exists(paste0(x, ".R"))) {
-    ur(x)
-  }
-}
-
-ot <- function(x) {
-  if (file.exists(paste0(x, ".R"))) {
-    ut(x)
-  }
-}
-
 ur <- function(x) {
-  usethis::use_r(x)
+  file <- fs::path_ext_set(x, "R")
+  path <- usethis::proj_path("R", file)
+  if (file.exists(path)) {
+    usethis::edit_file(path)
+  } else {
+    stop("file ", path, " does not exist")
+  }
+}
+
+cr <- function(x) {
+  file <- fs::path_ext_set(x, "R")
+  path <- usethis::proj_path("R", file)
+  if (!file.exists(path)) {
+    usethis::use_r(x)
+  } else {
+    stop("file ", path, " already exists")
+  }
 }
 
 ut <- function(x) {
-  usethis::use_test(x)
+  file <- fs::path_ext_set(x, "R")
+  file <- paste0("test-", file)
+  path <- usethis::proj_path("tests/testthat", file)
+  if (file.exists(path)) {
+    usethis::edit_file(path)
+  } else {
+    stop("file ", path, " does not exist")
+  }
+}
+
+ct <- function(x) {
+  file <- fs::path_ext_set(x, "R")
+  file <- paste0("test-", file)
+  path <- usethis::proj_path("tests/testthat", file)
+  if (!file.exists(path)) {
+    usethis::use_test(x)
+  } else {
+    stop("file ", path, " already exists")
+  }
 }
 
 ld <- function() {

@@ -1,46 +1,49 @@
-install.packages("abind")
-install.packages("batchtools")
-install.packages("bindr")
-install.packages("Cairo")
-install.packages("clustermq")
-install.packages("codetools")
-install.packages("covr")
-install.packages("devtools")
-install.packages("downloader")
-install.packages("drake")
-install.packages("future")
-install.packages("ggraph")
-install.packages("goodpractice")
-install.packages("hunspell")
-install.packages("keras")
-install.packages("knitr")
-install.packages("lintr")
-install.packages("lubridate")
-install.packages("networkD3")
-install.packages("prettycode")
-install.packages("proffer")
-install.packages("qs")
-install.packages("recipes")
-install.packages("reprex")
-install.packages("revealjs")
-install.packages("rmarkdown")
-install.packages("roxygen2")
-install.packages("rsample")
-install.packages("rsconnect")
-install.packages("shiny")
-install.packages("spelling")
-install.packages("styler")
-install.packages("tensorflow")
-install.packages("testthat")
-install.packages("tidyverse")
-install.packages("txtplot")
-install.packages("txtq")
-install.packages("vctrs")
-install.packages("visNetwork")
-install.packages("webshot")
-install.packages("xaringan")
-install.packages("yardstick")
-remotes::install_github("r-prof/proffer")
-remotes::install_github("ropensci/drake")
-remotes::install_github("wlandau/txtq")
+install.packages(c(
+  "abind",
+  "batchtools",
+  "bindr",
+  "bookdown",
+  "Cairo",
+  "clustermq",
+  "codetools",
+  "covr",
+  "devtools",
+  "downloader",
+  "drake",
+  "fst",
+  "future",
+  "ggraph",
+  "goodpractice",
+  "hunspell",
+  "keras",
+  "knitr",
+  "lintr",
+  "lubridate",
+  "networkD3",
+  "prettycode",
+  "proffer",
+  "qs",
+  "recipes",
+  "remotes",
+  "reprex",
+  "revealjs",
+  "rmarkdown",
+  "roxygen2",
+  "rsample",
+  "rsconnect",
+  "shiny",
+  "spelling",
+  "styler",
+  "tensorflow",
+  "testthat",
+  "tidyverse",
+  "txtplot",
+  "txtq",
+  "vctrs",
+  "visNetwork",
+  "webshot",
+  "xaringan",
+  "yardstick"
+))
+remotes::install_github("wlandau/targets")
 webshot::install_phantomjs()

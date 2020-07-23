@@ -1,6 +1,7 @@
 install.packages(c(
   "abind",
   "batchtools",
+  "biglm",
   "bindr",
   "bookdown",
   "Cairo",
@@ -10,6 +11,7 @@ install.packages(c(
   "devtools",
   "downloader",
   "drake",
+  "fs",
   "fst",
   "future",
   "ggraph",

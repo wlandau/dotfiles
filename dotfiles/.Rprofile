@@ -13,7 +13,7 @@ q0 <- function() {
 }
 
 la <- function() {
-  remotes::load_all()
+  pkgload::load_all()
 }
 
 ur <- function(x) {

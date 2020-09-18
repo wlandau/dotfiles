@@ -8,6 +8,10 @@ local({
   options(repos = r)
 })
 
+et <- function() {
+  usethis::edit_file("_targets.R")
+}
+
 q0 <- function() {
   q(save = "no", status = 0, runLast = TRUE)
 }

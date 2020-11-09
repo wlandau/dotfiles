@@ -5,9 +5,12 @@ install.packages(c(
   "bindr",
   "bookdown",
   "Cairo",
+  "callr",
+  "cli",
   "clustermq",
   "codetools",
   "covr",
+  "curl",
   "devtools",
   "downloader",
   "drake",
@@ -52,4 +55,5 @@ install.packages(c(
   "yardstick"
 ))
 remotes::install_github("wlandau/targets")
+remotes::install_github("wlandau/tarchetypes")
 webshot::install_phantomjs()

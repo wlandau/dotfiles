@@ -1,6 +1,6 @@
 #' @title Add GitHub labels to the current repo.
 #' @export
-#' @description Uses the labels from <https://github.com/wlandau/targets>.
+#' @description Borrows several labels from <https://github.com/wlandau/targets>.
 #' @inheritParams usethis::use_github_labels
 #' @param ... Optional named arguments to `usethis::use_github_labels()`.
 #' \dontrun{
@@ -9,7 +9,6 @@
 label_repo <- function(delete_default = TRUE, ...) {
   labels <- tibble::tribble(
     ~label, ~color,
-    "review: ropensci", "4c037c",
     "depends: another issue", "2DC6AD",
     "depends: external prerequisite", "2DC6AD",
     "depends: future release", "2DC6AD",

@@ -56,4 +56,6 @@ install.packages(c(
 ))
 remotes::install_github("wlandau/targets")
 remotes::install_github("wlandau/tarchetypes")
+remotes::install_github("stan-dev/cmdstanr")
 webshot::install_phantomjs()
+cmdstanr::install_cmdstan()

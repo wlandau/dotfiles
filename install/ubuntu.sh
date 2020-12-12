@@ -5,3 +5,4 @@ sudo apt-get install -y emacs
 sudo apt-get install -y gdebi
 sudo apt-get install -y git
 sudo apt-get install -y xclip
+sudo apt-get install -y libgit2-dev

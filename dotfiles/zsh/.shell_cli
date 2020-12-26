@@ -1,0 +1,13 @@
+alias ag='sudo apt-get '
+alias agi='sudo apt-get install -y '
+alias c='rm -rf *~ \.*~ *.out .Rhistory .RData *.tar.gz *.Rcheck *.Rout *.log'
+alias k="clear && printf '\e[3J'"
+alias lg='exit'
+
+export EDITOR=emacs                                                   
+#export PS1='\[\033[01;32m\]`echo \$PWD`\[\033[00m\] ' # bash
+export PROMPT='%B%~%b '
+
+function trim {
+  sed -i 's/[[:space:]]*$//g' $1
+}

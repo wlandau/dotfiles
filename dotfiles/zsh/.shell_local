@@ -1,0 +1,13 @@
+alias cj='cd ${PROJECTS}'
+alias co='cd /home/landau/Downloads'
+alias rd='sudo docker run -it rocker/r-parallel /bin/bash'
+#alias t=
+#alias q=
+#
+export PROJECTS=/home/landau/projects
+# 
+# For CUDA, R, Python, etc.
+export PATH=/home/landau/R/R-4.0.2/bin:$PATH
+# export PATH=/home/landau/anaconda3/bin:$PATH
+export PATH=/home/landau/.local/share/r-miniconda/bin:$PATH
+export RSTUDIO_WHICH_R=/home/landau/R/R-4.0.2/bin/R

@@ -11,5 +11,6 @@
     "window.zoomLevel": 1,
     "editor.minimap.enabled": false,
     "workbench.panel.defaultLocation": "right",
-    "terminal.integrated.shell.linux": "/usr/bin/zsh"
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "terminal.integrated.shell.osx": "/usr/bin/zsh"
 }

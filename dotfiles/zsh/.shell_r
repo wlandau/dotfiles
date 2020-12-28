@@ -9,7 +9,7 @@ function kv {
   Rscript -e 'Sys.setenv(NOT_CRAN = "true"); library(covr); x <- covr::package_coverage(path = '\"$1\"', clean = FALSE); print(x); print(covr::zero_coverage(x))'
 }
 
-function md {
+function mkd {
   Rscript -e 'rmarkdown::render('\"$1\"')'
 }
 

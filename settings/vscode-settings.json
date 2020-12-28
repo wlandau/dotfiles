@@ -12,5 +12,10 @@
     "editor.minimap.enabled": false,
     "workbench.panel.defaultLocation": "right",
     "terminal.integrated.shell.linux": "/usr/bin/zsh",
-    "terminal.integrated.shell.osx": "/usr/bin/zsh"
+    "terminal.integrated.shell.osx": "/usr/bin/zsh",
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#303030",
+        "statusBar.noFolderBackground" : "#222225",
+        "statusBar.debuggingBackground": "#511f1f"
+    }
 }

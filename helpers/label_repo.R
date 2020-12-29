@@ -31,6 +31,8 @@ label_repo <- function(delete_default = TRUE, ...) {
     "status: questioning", "ffffff",
     "status: shelved", "ffffff",
     "status: stale", "ffffff",
+    "status: incompatible", "ffffff",
+    "status: out of scope", "ffffff",
     "status: priority", "D93F0B",
     "topic: api", "BFD4F2",
     "topic: ci", "BFD4F2",

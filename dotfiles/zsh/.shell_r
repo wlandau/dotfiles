@@ -9,6 +9,10 @@ function kv {
   Rscript -e 'Sys.setenv(NOT_CRAN = "true"); library(covr); x <- covr::package_coverage(path = '\"$1\"', clean = FALSE); print(x); print(covr::zero_coverage(x))'
 }
 
+function ur {
+  Rscript -e 'urlchecker::url_check('\"$1\"')'
+}
+
 function mkd {
   Rscript -e 'rmarkdown::render('\"$1\"')'
 }

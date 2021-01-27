@@ -47,6 +47,7 @@ label_repo <- function(delete_default = TRUE, ...) {
     "type: edge case", "aa0566",
     "type: faq", "aa0566",
     "type: limitation", "aa0566",
+    "type: maintenance", "aa0566",
     "type: new feature", "aa0566",
     "type: question", "aa0566",
     "type: trouble", "aa0566",

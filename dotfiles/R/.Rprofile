@@ -8,6 +8,10 @@ local({
   options(repos = r)
 })
 
+k <- function() {
+  system("clear && printf '\\e[3J'")
+}
+
 et <- function() {
   usethis::edit_file("_targets.R")
 }

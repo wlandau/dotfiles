@@ -81,4 +81,6 @@ td <- function() {
   setwd(dir)
 }
 
-k()
+if (interactive()) {
+  k()
+}

@@ -80,3 +80,5 @@ td <- function() {
   dir.create(dir)
   setwd(dir)
 }
+
+k()

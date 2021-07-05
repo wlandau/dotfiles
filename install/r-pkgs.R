@@ -19,6 +19,7 @@ install.packages(c(
   "fs",
   "fst",
   "future",
+  "future.callr",
   "ggraph",
   "goodpractice",
   "hunspell",

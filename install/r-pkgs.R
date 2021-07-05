@@ -1,5 +1,7 @@
 install.packages(c(
   "abind",
+  "arrow",
+  "aws.s3",
   "batchtools",
   "biglm",
   "bindr",

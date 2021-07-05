@@ -48,6 +48,7 @@ install.packages(c(
   "tensorflow",
   "testthat",
   "tidyverse",
+  "torch",
   "txtplot",
   "txtq",
   "vctrs",

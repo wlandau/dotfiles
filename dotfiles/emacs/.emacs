@@ -18,3 +18,4 @@
 (setq column-number-mode t)
 (add-to-list 'auto-mode-alist '("\\.R\\'" . python-mode))
 (add-to-list 'auto-mode-alist '("\\.cu\\'" . c++-mode))
+(setq tab-width 2)

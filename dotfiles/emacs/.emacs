@@ -19,3 +19,4 @@
 (add-to-list 'auto-mode-alist '("\\.R\\'" . python-mode))
 (add-to-list 'auto-mode-alist '("\\.cu\\'" . c++-mode))
 (setq tab-width 2)
+(when (fboundp 'electric-indent-mode) (electric-indent-mode -1))

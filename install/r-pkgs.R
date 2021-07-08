@@ -26,6 +26,7 @@ install.packages(c(
   "hunspell",
   "keras",
   "knitr",
+  "languageserver",
   "lintr",
   "lubridate",
   "networkD3",

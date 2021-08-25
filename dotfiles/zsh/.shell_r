@@ -1,5 +1,6 @@
 alias R='R --no-save --no-restore'
 alias r='R --no-save --no-restore'
+alias tp="Rscript -e 'targets::tar_poll()'"
 
 function gpr {
   Rscript -e 'goodpractice::gp('\"$1\"')'

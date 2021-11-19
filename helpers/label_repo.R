@@ -10,7 +10,7 @@ label_repo <- function(delete_default = TRUE, ...) {
   labels <- tibble::tribble(
     ~label, ~color,
     "depends: another issue", "2DC6AD",
-    "depends: external prerequisite", "2DC6AD",
+    "depends: different tool", "2DC6AD",
     "depends: future release", "2DC6AD",
     "depends: help or input", "2DC6AD",
     "depends: reprex", "2DC6AD",

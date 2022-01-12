@@ -9,6 +9,7 @@ export PROMPT='%B%{$fg[cyan]%}%~%{$reset_color%} $(git_prompt_info)%b'
 export ZSH_THEME="spaceship"
 export SHELL="/usr/bin/zsh"
 export LESS="-F -X $LESS"
+export DISPLAY=""
 
 unsetopt nomatch
 

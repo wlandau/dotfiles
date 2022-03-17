@@ -1,6 +1,3 @@
-Sys.setenv(NOT_CRAN = "true")
-Sys.setenv(KMP_DUPLICATE_LIB_OK = "True") # for TensorFlow
-
 options(bitmapType = "cairo", drake_make_menu = FALSE, drake_clean_menu = FALSE)
 local({
   r <- getOption("repos")

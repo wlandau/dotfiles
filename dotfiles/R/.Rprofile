@@ -1,4 +1,9 @@
-options(bitmapType = "cairo", drake_make_menu = FALSE, drake_clean_menu = FALSE)
+options(
+  bitmapType = "cairo",
+  drake_make_menu = FALSE,
+  drake_clean_menu = FALSE,
+  covr.flags = c(CXXFLAGS = "-O2", LDFLAGS = "")
+)
 local({
   r <- getOption("repos")
   r["CRAN"] <- "https://cloud.r-project.org"

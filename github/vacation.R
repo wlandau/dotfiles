@@ -170,7 +170,7 @@ issue_text <- function(date) {
       "tasks piling up in my absence. While I am gone, ",
       "[Github interactions are temporarily limited]",
       "(https://docs.github.com/en/communities/moderating-comments-and-conversations/limiting-interactions-in-your-repository), ",
-      "which means users will not be able to open or comment on ",
+      "which means users cannot open or comment on ",
       "[issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) or ",
       "[discussions](https://docs.github.com/en/discussions) until I return (see below). ",
       "Thank you for your patience and understanding.\\n\\n## Day of my return\\n\\n%s"

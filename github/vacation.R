@@ -1,5 +1,6 @@
 expiry <- "one_day" # one_day three_days one_week one_month six_months
 date <- "2023-01-02" # date of my return
+# The token needs repo, user, and discussion permissions.
 
 repo_args <- function() {
   tibble::tribble(

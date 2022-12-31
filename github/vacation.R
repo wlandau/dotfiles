@@ -1,7 +1,22 @@
+# length of vacation
 expiry <- "one_day" # one_day three_days one_week one_month six_months
-date <- "2023-01-02" # date of my return
-# The token needs repo, user, and discussion permissions.
+date <- "2023-01-02" # date of return
 
+# vacation functions
+vacation_on <- function(expiry, date) {
+  limit_users(expiry)
+  limit_repos(expiry)
+  open_issues(expiry = expiry, date = date)
+}
+
+vacation_off <- function() {
+  unlimit_users()
+  unlimit_repos()
+  close_issues()
+}
+
+# repo and user settings
+# Each token needs repo, user, and discussion permissions.
 repo_args <- function() {
   tibble::tribble(
     ~repo, ~owner, ~token, ~expiry, ~issue,
@@ -21,18 +36,7 @@ user_args <- function() {
   )
 }
 
-vacation_on <- function(expiry, date) {
-  limit_users(expiry)
-  limit_repos(expiry)
-  open_issues(expiry = expiry, date = date)
-}
-
-vacation_off <- function() {
-  unlimit_users()
-  unlimit_repos()
-  close_issues()
-}
-
+# utility functions
 limit_users <- function(expiry) {
   args <- user_args()
   limit_user(token = args$token, expiry = expiry)

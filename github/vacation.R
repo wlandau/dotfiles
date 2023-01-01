@@ -1,5 +1,5 @@
 # length of vacation
-expiry <- "one_day" # one_day three_days one_week one_month six_months
+expiry <- "one_week" # one_day three_days one_week one_month six_months
 date <- "2023-01-02" # date of return
 
 # vacation functions

@@ -25,7 +25,10 @@ repo_args <- function() {
     "tarchetypes", "ropensci", Sys.getenv("GITHUB_PAT"), expiry, "130",
     "gittargets", "ropensci", Sys.getenv("GITHUB_PAT"), expiry, "13",
     "jagstargets", "ropensci", Sys.getenv("GITHUB_PAT"), expiry, "32",
-    "stantargets", "ropensci", Sys.getenv("GITHUB_PAT"), expiry, "58"
+    "stantargets", "ropensci", Sys.getenv("GITHUB_PAT"), expiry, "58",
+    "crew", "wlandau", Sys.getenv("GITHUB_PAT"), expiry, "24",
+    "historicalborrow", "wlandau", Sys.getenv("GITHUB_PAT"), expiry, "5",
+    "historicalborrowlong", "wlandau", Sys.getenv("GITHUB_PAT"), expiry, "1"
   )
 }
 

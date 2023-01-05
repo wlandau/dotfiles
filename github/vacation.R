@@ -159,7 +159,7 @@ close_issue <- function(repo, owner, issue, token) {
     "-X PATCH",
     headers(token),
     sprintf("https://api.github.com/repos/%s/%s/issues/%s", owner, repo, issue),
-    sprintf("-d '{\"state\":\"close\",\"body\":\"%s\"}'", issue_text("returned"))
+    sprintf("-d '{\"state\":\"close\",\"body\":\"%s\"}'", issue_text("Already returned."))
   )
   system2(command = "curl", args = args)
 }

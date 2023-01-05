@@ -175,7 +175,7 @@ issue_text <- function(date) {
       "(https://docs.github.com/en/communities/moderating-comments-and-conversations/limiting-interactions-in-your-repository), ",
       "which means users cannot open or comment on ",
       "[issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) or ",
-      "[discussions](https://docs.github.com/en/discussions) until I return and re-enable interactions (see below). ",
+      "[discussions](https://docs.github.com/en/discussions) until I return and re-enable interactions (see below). When this issue is closed, interactions are re-enabled.",
       "Thank you for your patience and understanding.\\n\\n## Day of my return\\n\\n%s"
     ),
     date

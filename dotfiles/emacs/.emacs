@@ -14,7 +14,6 @@
  ;; If there is more than one, they won't work right.
  )
 
-(setq initial-scratch-message nil)
 (set-face-attribute 'default nil :height 160)
 (setq column-number-mode t)
 (add-to-list 'auto-mode-alist '("\\.R\\'" . python-mode))

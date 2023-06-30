@@ -178,7 +178,8 @@ issue_text <- function(date) {
       "[issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) or ",
       "[discussions](https://docs.github.com/en/discussions) until I return and re-enable interactions (see below). ",
       "When this issue is closed, vacation mode is turned off and interactions are re-enabled and possible again.",
-      "Thank you for your patience and understanding.\\n\\n## Day of my return\\n\\n%s"
+      "Thank you for your patience and understanding.\\n\\n## Day of my return\\n\\n%s",
+      "\\n\\n## Vacation mode source code\\n\\n* <https://github.com/wlandau/dotfiles/blob/main/github/vacation.R>"
     ),
     date
   )

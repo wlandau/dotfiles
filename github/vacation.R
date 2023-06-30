@@ -168,16 +168,16 @@ close_issue <- function(repo, owner, issue, token) {
 issue_text <- function(date) {
   sprintf(
     paste0(
-      "## About\\n\\nWhen this issue is open, ",
-      "this repository is in vacation mode. ",
-      "This lets me take a break without worrying about ",
-      "tasks piling up in my absence. While I am gone, ",
+      "## Vacation mode\\n\\nWhen this issue is open, ",
+      "vacation mode is turned on. That means ",
       "[Github interactions are temporarily limited]",
       "(https://docs.github.com/en/communities/moderating-comments-and-conversations/limiting-interactions-in-your-repository), ",
-      "which means users cannot open or comment on ",
+      "so users cannot open or comment on ",
       "[issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) or ",
-      "[discussions](https://docs.github.com/en/discussions) until I return and re-enable interactions (see below). ",
-      "When this issue is closed, vacation mode is turned off and interactions are re-enabled and possible again.",
+      "[discussions](https://docs.github.com/en/discussions) until I return and re-enable interactions (see return date below). ",
+      "When this issue is closed, vacation mode is turned off and interactions are re-enabled and possible again.\\n",
+      "\\n\\n## Thanks\\n\\n",
+      "Vacation mode helps me rest because it prevents tasks from piling up in my absence. ",
       "Thank you for your patience and understanding.\\n\\n## Day of my return\\n\\n%s",
       "\\n\\n## Vacation mode source code\\n\\n* <https://github.com/wlandau/dotfiles/blob/main/github/vacation.R>"
     ),

@@ -1,6 +1,6 @@
 # length of vacation
 expiry <- "one_week" # one_day three_days one_week one_month six_months
-date <- "2023-01-02" # date of return
+date <- "2023-07-09" # date of return
 
 # vacation functions
 vacation_on <- function(expiry, date) {
@@ -27,6 +27,7 @@ repo_args <- function() {
     "jagstargets", "ropensci", Sys.getenv("GITHUB_PAT"), expiry, "32",
     "stantargets", "ropensci", Sys.getenv("GITHUB_PAT"), expiry, "58",
     "crew", "wlandau", Sys.getenv("GITHUB_PAT"), expiry, "24",
+    "crew.cluster", "wlandau", Sys.getenv("GITHUB_PAT"), expiry, "11",
     "historicalborrow", "wlandau", Sys.getenv("GITHUB_PAT"), expiry, "5",
     "historicalborrowlong", "wlandau", Sys.getenv("GITHUB_PAT"), expiry, "1"
   )

@@ -29,7 +29,8 @@ repo_args <- function() {
     "crew", "wlandau", Sys.getenv("GITHUB_PAT"), expiry, "24",
     "crew.cluster", "wlandau", Sys.getenv("GITHUB_PAT"), expiry, "11",
     "historicalborrow", "wlandau", Sys.getenv("GITHUB_PAT"), expiry, "5",
-    "historicalborrowlong", "wlandau", Sys.getenv("GITHUB_PAT"), expiry, "1"
+    "historicalborrowlong", "wlandau", Sys.getenv("GITHUB_PAT"), expiry, "1",
+    "instantiate", "wlandau", Sys.getenv("GITHUB_PAT"), expiry, "5"
   )
 }
 

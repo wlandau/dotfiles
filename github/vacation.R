@@ -4,8 +4,8 @@ date <- "2023-11-06" # date of return
 
 # vacation functions
 vacation_on <- function(expiry, date) {
-  limit_users(expiry)
   limit_repos(expiry)
+  limit_users(expiry)
   open_issues(expiry = expiry, date = date)
 }
 

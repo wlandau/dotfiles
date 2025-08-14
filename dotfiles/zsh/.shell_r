@@ -14,10 +14,6 @@ function ur {
   Rscript -e 'urlchecker::url_check('\"$1\"')'
 }
 
-function lt {
-  Rscript -e 'lintr::lint('\"$1\"')'
-}
-
 function rb {
   R CMD build $1
 }
@@ -37,10 +33,6 @@ function ro {
 function roi {
   ro $1
   ri $1
-}
-
-function sl {
-  Rscript -e 'lintr::lint_package('\"$1\"')'
 }
 
 function sp {

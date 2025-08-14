@@ -2,8 +2,8 @@ alias R='R --no-save --no-restore'
 alias r='R --no-save --no-restore'
 alias tp="Rscript -e 'targets::tar_poll()'"
 
-function gpr {
-  Rscript -e 'goodpractice::gp('\"$1\"', quiet = FALSE)'
+function af {
+  air format $1
 }
 
 function kv {
@@ -14,20 +14,12 @@ function ur {
   Rscript -e 'urlchecker::url_check('\"$1\"')'
 }
 
-function mkd {
-  Rscript -e 'rmarkdown::render('\"$1\"')'
-}
-
 function lt {
   Rscript -e 'lintr::lint('\"$1\"')'
 }
 
 function rb {
   R CMD build $1
-}
-
-function rh {
-  R CMD check $1.*.tar.gz
 }
 
 function ri {
@@ -55,10 +47,10 @@ function sp {
   Rscript -e 'devtools::spell_check('\"$1\"')'
 }
 
-function tf {
-  Rscript -e 'pkgload::load_all()' -e 'testthat::test_file('\"$1\"')'
-}
-
 function tk {
   Rscript -e 'devtools::test(pkg = '\"$1\"')'
+}
+
+function tin {
+  Rscript -e 'tinytest::test_package(pkgname = '\"$1\"')'
 }

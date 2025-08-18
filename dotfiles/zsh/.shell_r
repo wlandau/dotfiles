@@ -15,6 +15,7 @@ function ur {
 }
 
 function rb {
+  air format $1
   R CMD build $1
 }
 
@@ -24,6 +25,7 @@ function ri {
 }
 
 function rn {
+  air format $1
   Rscript -e 'devtools::check(pkg = '\"$1\"')'
 }
 
@@ -33,6 +35,7 @@ function ro {
 }
 
 function roi {
+  air format $1
   ro $1
   ri $1
 }
@@ -42,9 +45,11 @@ function sp {
 }
 
 function tk {
+  air format $1
   Rscript -e 'devtools::test(pkg = '\"$1\"')'
 }
 
 function tin {
+  air format $1
   Rscript -e 'tinytest::test_package(pkgname = '\"$1\"')'
 }

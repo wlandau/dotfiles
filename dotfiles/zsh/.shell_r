@@ -19,6 +19,7 @@ function rb {
 }
 
 function ri {
+  air format $1
   R CMD INSTALL $1
 }
 
@@ -27,6 +28,7 @@ function rn {
 }
 
 function ro {
+  air format $1
   Rscript -e 'library(roxygen2); roxygenize('\"$1\"')'
 }
 

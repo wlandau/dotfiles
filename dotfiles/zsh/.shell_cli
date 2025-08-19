@@ -11,7 +11,7 @@ export ZSH_THEME="spaceship"
 export SHELL="/usr/bin/zsh"
 export LESS="-F -X $LESS"
 
-unsetopt nomatch
+setopt nullglob
 
 function trim {
   sed -i 's/[[:space:]]*$//g' $1

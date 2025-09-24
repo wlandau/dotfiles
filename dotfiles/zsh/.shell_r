@@ -1,6 +1,4 @@
 alias R='R --no-save --no-restore'
-alias r='R --no-save --no-restore'
-alias tp="Rscript -e 'targets::tar_poll()'"
 
 function af {
   air format $1
@@ -15,27 +13,22 @@ function ur {
 }
 
 function rb {
-  air format $1
   R CMD build $1
 }
 
 function ri {
-  air format $1
   R CMD INSTALL $1
 }
 
 function rn {
-  air format $1
   Rscript -e 'devtools::check(pkg = '\"$1\"')'
 }
 
 function ro {
-  air format $1
   Rscript -e 'library(roxygen2); roxygenize('\"$1\"')'
 }
 
 function roi {
-  air format $1
   ro $1
   ri $1
 }
@@ -45,11 +38,9 @@ function sp {
 }
 
 function tk {
-  air format $1
   Rscript -e 'devtools::test(pkg = '\"$1\"')'
 }
 
 function tin {
-  air format $1
   Rscript -e 'tinytest::test_package(pkgname = '\"$1\"')'
 }

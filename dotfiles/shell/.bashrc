@@ -1,0 +1,1 @@
+source ~/.shell_rc

@@ -1,0 +1,9 @@
+alias agi='sudo apt-get install -y '
+alias c='rm -rf *~ \.*~ *.out .Rhistory .RData *.tar.gz *.Rcheck *.Rout *.log'
+alias k="clear && printf '\e[3J'"
+alias lg='exit'
+alias emacs='emacs -nw'
+
+function trim {
+  sed -i 's/[[:space:]]*$//g' $1
+}

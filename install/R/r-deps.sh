@@ -1,19 +1,4 @@
-sudo apt-get install -y fort77
-sudo apt-get install -y gfortran
-sudo apt-get install -y libbz2-dev
-sudo apt-get install -y libcairo2-dev
-sudo apt-get install -y libcurl4-openssl-dev
-sudo apt-get install -y liblzma-dev
-sudo apt-get install -y libpcre3
-sudo apt-get install -y libpcre3-dev
-sudo apt-get install -y libreadline-dev
-sudo apt-get install -y libssl-dev
-sudo apt-get install -y libudunits2-dev
-sudo apt-get install -y libxml2-dev
-sudo apt-get install -y libzmq5
-sudo apt-get install -y libzmq5-dev
-sudo apt-get install -y texinfo
-sudo apt-get install -y texlive
-sudo apt-get install -y texlive-fonts-extra
-sudo apt-get install -y xorg-dev
-sudo apt-get install -y zlib1g-dev
+sudo apt-get install -y fort77 gfortran libbz2-dev libcairo2-dev \
+  libcurl4-openssl-dev liblzma-dev libpcre3 libpcre3-dev \
+  libreadline-dev libssl-dev libudunits2-dev libxml2-dev \
+  texinfo texlive texlive-fonts-extra xorg-dev zlib1g-dev

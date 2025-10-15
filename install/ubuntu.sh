@@ -1,8 +1,3 @@
 sudo apt-get update -y
 sudo apt-get upgrade -y
-sudo apt-get install -y build-essential
-sudo apt-get install -y emacs
-sudo apt-get install -y gdebi
-sudo apt-get install -y git
-sudo apt-get install -y xclip
-sudo apt-get install -y libgit2-dev
+sudo apt-get install -y build-essential emacs gdebi git xclip libgit2-dev

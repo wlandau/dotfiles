@@ -2,6 +2,8 @@ alias gam='git commit -am '
 alias gb='git branch '
 alias gp='git push'
 
+export GPG_TTY=$(tty)
+
 function gj {
   if [ $# -eq 0 ]; then
     git status

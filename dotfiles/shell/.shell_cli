@@ -4,6 +4,8 @@ alias k="clear && printf '\e[3J'"
 alias lg='exit'
 alias emacs='emacs -nw'
 
+setopt null_glob
+
 function trim {
   sed -i 's/[[:space:]]*$//g' $1
 }

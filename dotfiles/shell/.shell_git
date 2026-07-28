@@ -1,5 +1,6 @@
 alias gam='git commit -am '
 alias gb='git branch '
+alias gd='git diff'
 alias gp='git push'
 
 export GPG_TTY=$(tty)
